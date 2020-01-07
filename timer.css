@@ -1,0 +1,67 @@
+.myscreen {
+    width: 450px;
+    height: 800px;
+    border: solid black 3px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mytimer {
+    width: 350px;
+    height: 680px;
+    border: solid black 3px;
+    margin: auto;
+    margin-top: 50px
+
+}
+
+.actualtime {
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 200px;
+    color: rgb(24, 24, 24)
+}
+
+.timename {
+    display: flex;
+    margin-left: 60px;
+}
+
+.time-text-item {
+    margin-left: 25px;
+    font-size: 16px;
+    color: rgb(165, 164, 164)
+}
+
+.startbutton {
+    margin-left: 40px;
+    border: rgb(0, 102, 255) solid 4px;
+    width: 150px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 5px ;
+    margin-top: 30px;
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(165, 164, 164)
+}
+
+.resetbutton {
+    margin-left: 40px;
+    border: rgb(0, 255, 242) solid 4px;
+    width: 150px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 5px ;
+    margin-top: 30px;
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(165, 164, 164)
+}
+
+.buttons {
+    display: flex;
+}
